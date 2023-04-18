@@ -1,4 +1,4 @@
-  @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
 *{
     padding: 0;
     margin: 0;
@@ -90,7 +90,7 @@
 }
 
 .btn-login{
-    width: 100%;
+    width: 50%;
     padding: 16px 0px;
     margin: 15px;
     border: none;
@@ -106,7 +106,7 @@
 }
 
 .btn-registrar{
-    width: 50%;
+    width: 100%;
     padding: 16px 0px;
     margin: 15px;
     border: none;
