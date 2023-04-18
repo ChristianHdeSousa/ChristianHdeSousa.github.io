@@ -1,4 +1,176 @@
+  @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
 *{
     padding: 0;
     margin: 0;
+    font-family: 'Noto Sans' , sans-serif;
+    box-sizing: border-box;
+}
+
+.login-principal{
+    width: 100vw;
+    height: 100vh;
+    background-color: #4f22b1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-esquerda{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.login-esquerda > h1 {
+    font-size: 3vw;
+    color: #b9e0ff ;
+}
+
+.imagem-login-esquerda{
+    width: 35vw;
+}
+
+.login-direita{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-login{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 35px;
+    background: #7323be;
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px #00000056;
+}
+
+.card-login > h1 {
+    color: #b9e0ff;
+    font-weight: 800;
+}
+
+.campo-texto{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 10px 0px;
+}
+
+.campo-texto > input{
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    background-color: #8645c2;
+    color: #f0ffffde;
+    font-size: 12pt;
+    box-shadow: 0px 10px 40px #00000056;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.campo-texto > label{
+    color: #f0ffffde;
+    margin-bottom: 10px;
+}
+
+.campo-texto > input::placeholder{
+    color: #f0ffffde;
+}
+form{
+    width: 100%;
+    box-sizing: border-box;
+}
+
+form.registrar{
+    width: 50%;
+    box-sizing: border-box;
+}
+.login{
+    width: 100%;
+    padding: 16px 0px;
+    margin-top: 16px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 3px;
+    color:#7323be;
+    background:#b9e0ff;
+    cursor: pointer;
+    box-shadow: 0px 10px 40px -12px #b9dfff73;
+    justify-content: center;
+}
+
+.registro{
+    width: 100%;
+    padding: 16px 0px;
+    margin: 15px 0px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 3px;
+    color:#7323be;
+    background:#b9e0ff;
+    cursor: pointer;
+    box-shadow: 0px 10px 40px -12px #b9dfff73;
+    box-sizing: border-box;
+    align-items: center;
+}
+.icons{
+    display: flex;
+    gap: 3vw;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    color: #b9e0ff;
+}
+
+a {
+    color: #b9e0ff;
+    justify-content: flex-start;
+}
+
+@media only screen and (max-width: 950px){
+    .card-login{
+        width: 85%;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .login-principal{
+        flex-direction: column;
+    }
+    .login-esquerda > h1{
+        display: none;
+    }
+    .login-esquerda{
+        width: 100%;
+        height: auto;
+    }
+    .login-direita{
+        width: 100%;
+        height: auto;
+    }
+    .login-esquerda > image{
+        width: 50vw;
+    }
+    .card-login{
+        width: 90%;
+    }
 }
