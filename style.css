@@ -88,27 +88,19 @@
 .campo-texto > input::placeholder{
     color: #f0ffffde;
 }
-
-.btn-login{
+form{
     width: 100%;
-    padding: 16px 0px;
-    margin: 15px;
-    border: none;
-    border-radius: 8px;
-    outline: none;
-    text-transform: uppercase;
-    font-weight: 800;
-    letter-spacing: 3px;
-    color:#7323be;
-    background:#b9e0ff;
-    cursor: pointer;
-    box-shadow: 0px 10px 40px -12px #b9dfff73;
+    box-sizing: border-box;
 }
 
-.btn-registrar{
+form.registrar{
     width: 50%;
+    box-sizing: border-box;
+}
+.login{
+    width: 100%;
     padding: 16px 0px;
-    margin: 15px;
+    margin-top: 16px;
     border: none;
     border-radius: 8px;
     outline: none;
@@ -119,6 +111,25 @@
     background:#b9e0ff;
     cursor: pointer;
     box-shadow: 0px 10px 40px -12px #b9dfff73;
+    justify-content: center;
+}
+
+.registro{
+    width: 100%;
+    padding: 16px 0px;
+    margin: 15px 0px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 3px;
+    color:#7323be;
+    background:#b9e0ff;
+    cursor: pointer;
+    box-shadow: 0px 10px 40px -12px #b9dfff73;
+    box-sizing: border-box;
+    align-items: center;
 }
 .icons{
     display: flex;
