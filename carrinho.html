@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Carrinho de Compras</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="carrinho.css"
+      rel="stylesheet"
+    />
+    <link href='https://unpkg.com/css.gg@2.0.0/icons/css/menu.css' rel='stylesheet'>
+    <link href='https://unpkg.com/css.gg@2.0.0/icons/css/search.css' rel='stylesheet'>
+    <link href='https://unpkg.com/css.gg@2.0.0/icons/css/shopping-cart.css' rel='stylesheet'>
+    <link href='https://unpkg.com/css.gg@2.0.0/icons/css/profile.css' rel='stylesheet'>
+  </head>
+  <body>
+    <section class="painel"> <!--Painel inical-->
+        
+      <div class="marca">
+          
+          <h1>LogoMarca</h1>
+     
+      </div>
+
+      <div class="menu"> <!--3 Risquinhos-->
+          
+          <a href=""><i class="gg-menu"></i></a>
+      
+      </div>
+      
+      <div class="pesquisa"><!--Barra de pesquisa-->
+          
+          <input type="text" id="procurar" placeholder="Pesquisar..." />
+          <div class="lupa">
+              <a href="Teste.html"><i class="gg-search"></i></a>
+          </div>
+      
+      </div>
+      
+      <div class="carrinho"> <!--Carrinho!-->
+          
+          <a href="carrinho.html">Carrinho</a> 
+          <i class="gg-shopping-cart"></i>
+      
+      </div>
+      
+      <div class="logar"> <!--Logar / Registrar!-->
+          
+          <a href="Login.html">Logar / Registrar-se</a> 
+          <i class="gg-profile"></i>
+      
+      </div>
+      
+  </section>
+    <main>
+      <div class="page-title">Seu Carrinho</div>
+      <div class="content">
+        <section>
+          <table>
+            <thead>
+              <tr>
+                <th>Produto</th>
+                <th>Preço</th>
+                <th>Quantidade</th>
+                <th>Total</th>
+                <th>-</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>
+                  <div class="product">
+                    <img src="Gabinete4.png"/>
+                    <div class="info">
+                      <div class="name">Gabinete H210 Black/Red - Ca-H210B-Br, Nzxt, 32352
+                      </div>
+                      <div class="category">Gabinete</div>
+                    </div>
+                  </div>
+                </td>
+                <td>R$ 649,00</td>
+                <td>
+                  <div class="qty">
+                    <button>+</button>
+                    <span>1</span>
+                    <button>-</button>
+                  </div>
+                </td>
+                <td>R$ 649,00</td>
+                <td>
+                  <button class="remove"><i class="bx bx-x"></i></button>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <div class="product">
+                    <img src="Placamae4.png"/>
+                    <div class="info">
+                      <div class="name">Placa Mãe Asus ROG MAXIMUS XIII HERO, Chipset Z590...
+                      </div>
+                      <div class="category">Placa mãe</div>
+                    </div>
+                  </div>
+                </td>
+                <td>R$ 3.767,00</td>
+                <td>
+                  <div class="qty">
+                    <button>+</button>
+                    <span>1</span>
+                    <button>-</button>
+                  </div>
+                </td>
+                <td>R$ 3.767,00</td>
+                <td>
+                  <button class="remove"><i class="bx bx-x"></i></button>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <div class="product">
+                    <img src="video5.png"/>
+                    <div class="info">
+                      <div class="name">ASUS GEFORCE RTX 3080 TUF GAMING, LHR, 10GB...
+                      </div>
+                      <div class="category">Placa de video</div>
+                    </div>
+                  </div>
+                </td>
+                <td>R$ 10.556,20</td>
+                <td>
+                  <div class="qty">
+                    <button><i class="bx bx-minus"></i></button>
+                    <span>1</span>
+                    <button><i class="bx bx-plus"></i></button>
+                  </div>
+                </td>
+                <td>R$ 10.556,20</td>
+                <td>
+                  <button class="remove"><i class="bx bx-x"></i></button>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+        <aside>
+          <div class="box">
+            <header>Resumo da compra</header>
+            <div class="info">
+              <div><span>Sub-total</span><span>R$ 14.972,2
+              </span></div>
+              <div><span>Frete</span><span>Gratuito</span></div>
+              <div>
+                <button>
+                  Adicionar cupom de desconto
+                  <i class="bx bx-right-arrow-alt"></i>
+                </button>
+              </div>
+            </div>
+            <footer>
+              <span>Total</span>
+              <span>R$ 14.972,2
+              </span>
+            </footer>
+          </div>
+          <button>Finalizar Compra</button>
+        </aside>
+      </div>
+    </main>
+  </body>
+</html>>

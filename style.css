@@ -6,6 +6,9 @@
     box-sizing: border-box;
 }
 
+a{
+    font-family:'Noto Sans' , sans-serif;
+}
 .login-principal{
     width: 100vw;
     height: 100vh;
@@ -93,10 +96,6 @@ form{
     box-sizing: border-box;
 }
 
-form.registrar{
-    width: 50%;
-    box-sizing: border-box;
-}
 .login{
     width: 100%;
     padding: 16px 0px;
@@ -114,23 +113,32 @@ form.registrar{
     justify-content: center;
 }
 
-.registro{
+.registrar{
+    display: flex;
+    justify-content: space-evenly;
     width: 100%;
-    padding: 16px 0px;
-    margin: 15px 0; 
-    border: none;
-    border-radius: 8px;
-    outline: none;
-    text-transform: uppercase;
-    font-weight: 800;
-    letter-spacing: 3px;
-    color:#7323be;
-    background:#b9e0ff;
-    cursor: pointer;
-    box-shadow: 0px 10px 40px -12px #b9dfff73;
-    box-sizing: border-box;
+    flex-direction: row;
+    margin: 10px 5px;
+    color: #b9e0ff;
+    letter-spacing: 1px;
+    text-decoration: none;
     align-items: center;
 }
+
+.registrar a{
+    text-decoration: none ;
+    cursor: pointer;
+}
+.registrar a:hover{
+    text-decoration: underline ;
+    cursor: pointer;
+}
+
+.icone{
+    display: flex;
+    justify-content: center;
+}
+
 .icons{
     display: flex;
     gap: 3vw;
