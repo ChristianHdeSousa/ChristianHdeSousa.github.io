@@ -89,20 +89,25 @@
     color: #f0ffffde;
 }
 
-.login{
+.registrar{
+    display: flex;
+    justify-content: space-evenly;
     width: 100%;
-    padding: 16px 0px;
-    margin: 15px 0;
-    border: none;
-    border-radius: 8px;
-    outline: none;
-    text-transform: uppercase;
-    font-weight: 800;
-    letter-spacing: 3px;
-    color:#7323be;
-    background:#b9e0ff;
+    flex-direction: row;
+    margin: 10px 5px;
+    color: #b9e0ff;
+    letter-spacing: 1px;
+    text-decoration: none;
+    align-items: center;
+}
+
+.registrar a{
+    text-decoration: none ;
     cursor: pointer;
-    box-shadow: 0px 10px 40px -12px #b9dfff73;
+}
+.registrar a:hover{
+    text-decoration: underline ;
+    cursor: pointer;
 }
 
 form{
